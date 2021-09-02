@@ -5,24 +5,32 @@
 	xmlns:f="http://java.sun.com/jsf/core"
 	xmlns:p="http://primefaces.org/ui">
 <h:head>
-	<link rel="stylesheet" type="text/css" href="CSS/index.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/cadastro/cadastro.css" />
 </h:head>
 
 <h:body>
-	<h:form id="loginView">
+	<h:form>
 		<p:panel header="Login">
 			<h:panelGrid columns="2" cellpadding="4">
-				<h:outputText value="Usuario " />
-				<p:inputText id="usuario" />
+				<p:outputLabel value="Usuário " />
+				<p:inputText />
 
-				<h:outputText value="Senha " />
-				<p:inputText id="senha" />
+				<p:outputLabel value="Senha " />
+				<p:inputText />
 			</h:panelGrid>
-			
-			<br/>
-			
+
+			<br />
+
 			<div align="center">
-				<p:commandButton id="entrar" value="Entrar" />
+				<div>
+					<p:button value="Entrar" />
+				</div>
+				
+				<br/>
+				
+				<div>
+					<p:button value="Cadastre-se" outcome="/pages/pvt/cadastro" />
+				</div>
 			</div>
 		</p:panel>
 	</h:form>

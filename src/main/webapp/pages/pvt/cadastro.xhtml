@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<link rel="stylesheet" type="text/css" href="../../CSS/cadastro/cadastro.css"/>
+</h:head>
+
+<h:form>
+	<h:body>
+		<p:panel header="Cadastro">
+			<h:panelGrid columns="2" cellpadding="4">
+					<p:outputLabel value="Nome"/>
+					<p:inputText/>
+			
+					<p:outputLabel value="Sobrenome"/>
+					<p:inputText/>
+				
+					<p:outputLabel value="Usuário"/>
+					<p:inputText/>
+				
+					<p:outputLabel value="Senha"/>
+					<p:inputText/>
+			
+					<p:outputLabel value="Confirme a senha"/>
+					<p:inputText/>
+			</h:panelGrid>
+			
+			<br/>
+			
+			<div align="center">
+				<p:button value="Cadastrar"/>	
+			</div>
+
+		</p:panel>
+	</h:body>
+</h:form>
+
+</html>
