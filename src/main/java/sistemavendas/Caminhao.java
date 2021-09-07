@@ -1,4 +1,4 @@
-package sistemavendasgenerico;
+package sistemavendas;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package sistemavendasgenerico;
+package sistemavendas;
 
 import java.util.List;
 
@@ -10,11 +10,11 @@ import javax.persistence.Persistence;
 
 @ManagedBean(name = "helloWorld")
 @SessionScoped
-public class HelloWorld {
+public class IndexBean {
 	private String firstName = "John";
 	private String lastName = "Doe";
 
-	public HelloWorld() {
+	public IndexBean() {
 	}
 
 	public String getFirstName() {
