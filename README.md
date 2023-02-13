@@ -1,3 +1,3 @@
 # App de vendas genérico.
-Sistema feito com Java utilizado JSF.
+Sistema feito com Java utilizando JSF.
  
